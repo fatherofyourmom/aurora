@@ -1,0 +1,48 @@
+```
+# Nix-specific
+result
+*.drv
+*.nix-log
+.nix-gc
+.nix-profile
+.nix-defexpr
+.nix-channels
+.var/nix
+.tmp.nix-*
+.nix-*
+
+# Build artifacts
+dist/
+build/
+target/
+*.hi
+*.o
+*.so
+
+# Dependencies
+.npm/
+.node_modules/
+.yarn/
+bower_components/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
